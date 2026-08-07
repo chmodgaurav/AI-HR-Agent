@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-chroma
+langchain-ollama
+chromadb
+pypdf
+jq
+python-dotenv
+pandas
+tqdm
