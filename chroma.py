@@ -22,5 +22,5 @@ embeddings = OllamaEmbeddings(model="nomic-embed-text:latest")
 db = Chroma.from_documents(
     split_docs,
     embeddings,
-    persist_directory="./chroma",
+    persist_directory="./database/chroma",
 )

@@ -5,7 +5,7 @@ embeddings = OllamaEmbeddings(model="nomic-embed-text:latest")
 llm=ChatOllama(model="gemma3:4b")
 
 db = Chroma(
-    persist_directory="./database",
+    persist_directory="./database/chroma",
     embedding_function=embeddings
 )
 
